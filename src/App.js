@@ -1,7 +1,12 @@
-import './App.css';
+import styles from './App.module.css';
+import Header from './Header/Header';
 
 const App = () => {
-  return <h1>Hi there!</h1>;
+  return (
+    <div className={styles.app}>
+      <Header />
+    </div>
+  );
 };
 
 export default App;
